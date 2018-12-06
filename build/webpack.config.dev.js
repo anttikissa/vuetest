@@ -22,10 +22,10 @@ module.exports = {
 				use: 'vue-loader'
 			},
 			// Async stuff requires regenerator runtime
-			// {
-			// 	test: /\.js$/,
-			// 	use: 'babel-loader'
-			// },
+			{
+				test: /\.js$/,
+				use: 'babel-loader'
+			},
 			{
 				test: /\.css$/,
 				use: [
