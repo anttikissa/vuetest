@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "vue-router": "^3.0.2",
-    "vue": "^2.5.17"
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.2"
   },
   "devDependencies": {
     "css-loader": "^1.0.1",
+    "html-webpack-plugin": "https://github.com/jantimon/html-webpack-plugin#298635f4b3fb19fe920b1e0b982b61af0f31239d",
     "vue-loader": "^15.4.2",
     "vue-style-loader": "^4.1.2",
     "vue-template-compiler": "^2.5.17",
