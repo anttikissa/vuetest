@@ -16,6 +16,27 @@ new Vue({
 	render: h => h(App)
 })
 
+async function sleep(ms) {
+	await new Promise(resolve => setTimeout(resolve, ms))
+}
+
+const log = (...args) => {
+	console.log(...args)
+}
+
+log('Init!')
+
+async function main() {
+	for (let i = 0; i < 10; i++) {
+		log('Async test: sleeping...', i)
+		await sleep(100)
+		log('Async test: slept!', i)
+	}
+	return 1
+}
+
+main().then(x => log('Got result', x))
+
 class Foo {
 	constructor() {
 		console.log('Foo constructing!')

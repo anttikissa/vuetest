@@ -1,7 +1,7 @@
 <template>
 <div class="full-width center-content">
 <h1>Hello world!</h1>
-<p>Nam!</p>
+<p>Wroom!</p>
 <HelloComponent name="Antti" />
 <ContextMenu1 />
 <ContextMenu2 />

@@ -21,6 +21,7 @@ module.exports = {
 				test: /\.vue$/,
 				use: 'vue-loader'
 			},
+			// Async stuff requires regenerator runtime
 			// {
 			// 	test: /\.js$/,
 			// 	use: 'babel-loader'
